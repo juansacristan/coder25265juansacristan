@@ -23,11 +23,19 @@ nav {
     position: relative;
     right: -900px;
     bottom: 50px;
+    text-decoration: none;
+}
+nav a:visited{
+    color: #192836;
 }
 .nav-link{
     text-decoration: none;
     padding: 0 20px;
     position: relative;
+}
+
+nav a:hover{
+    color:#fcaf17;
 }
 /* nav li {
     font-size: 20px;
