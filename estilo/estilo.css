@@ -19,7 +19,17 @@ margin: 5px;
 
 }
 
-nav li {
+nav {
+    position: relative;
+    right: -900px;
+    bottom: 50px;
+}
+.nav-link{
+    text-decoration: none;
+    padding: 0 20px;
+    position: relative;
+}
+/* nav li {
     font-size: 20px;
     display: inline;
     padding: 0 20px;
@@ -46,7 +56,8 @@ section ol li{
     font-weight: bold;
     font-size: 30px;
     color: #192836;
-}
+} */
+
 .sobremi{
     color: #192836;
     display: grid; 
@@ -146,14 +157,18 @@ footer li a{
 }
 
 @media screen and (max-width: 770px){
-    nav li a{
+/*     nav li a{
         color: #fff;
         justify-content: right;
-    }
+    } */
 
     header{
-        background-color: #fcaf17;
+        background-color:  #fff;
 
+    }
+    nav {
+        position: relative;
+        left: -900px;
     }
     body{
         grid-template-columns: 1fr;
@@ -168,9 +183,10 @@ footer li a{
     }
     .sobremi img{
         justify-content: center;
+        width: 700px;
         
     }
-    section{
+/*     section{
         justify-content: center;
     }
     article img{
@@ -183,7 +199,8 @@ footer li a{
     article ol{
         justify-content: center;
         justify-content: center;
-    }
+    } */
+
     footer{
         display: flex;
         flex-wrap: wrap;
@@ -192,4 +209,55 @@ footer li a{
         align-items: center;
     }
 
+}
+@media screen and (max-width: 576px){
+/*     nav li a{
+        color: #fff;
+        justify-content: right;
+    } */
+
+    header{
+        background-color: #fff;
+    }
+    nav {
+        position: relative;
+    }
+    body{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0,5fr 0,5fr 0,5fr;
+    }
+    .sobremi{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+    }
+    .sobremi img{
+        justify-content: center;
+        width: 500px;
+        
+    }
+/*     section{
+        justify-content: center;
+    }
+    article img{
+        align-items: center;
+        width: 200px;
+    }
+    article li a{
+        align-items: center;
+    }
+    article ol{
+        justify-content: center;
+        justify-content: center;
+    } */
+
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
