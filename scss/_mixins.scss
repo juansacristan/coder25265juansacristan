@@ -1,0 +1,7 @@
+@mixin proyectos ($ancho, $alto){
+    height: $alto;
+    width: $ancho;
+}
+.proyectos img{
+    @include proyectos(300px, 300px);
+}
