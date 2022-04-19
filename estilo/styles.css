@@ -58,3 +58,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center; }
+
+.proyectos img {
+  height: 300px;
+  width: 300px; }
