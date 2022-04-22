@@ -179,6 +179,14 @@ button {
     width: 900px;
 }
 
+.proyectosSection img{
+    transition: height 1s;
+    filter: grayscale(100%);
+}
+.proyectosSection img:hover{
+    filter: none;
+}
+
 .contacto h2{
     color: #192836;
 }
