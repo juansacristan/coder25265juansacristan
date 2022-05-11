@@ -125,7 +125,7 @@ button {
 }
 
 .proyectosSection img{
-    transition: 1s;
+    transition: 0.5s;
     filter: grayscale(100%);
 }
 .proyectosSection img:hover{
@@ -163,6 +163,12 @@ footer li a{
 
 .sobremiyo{
     width: 800px;
+    transition: 0.5s;
+    filter: grayscale(100%);
+}
+
+.sobremiyo:hover{
+    filter: none;
 }
 .datos{
     color: #192836; 
@@ -380,20 +386,6 @@ footer li a{
         width: 700px;
         
     }
-/*     section{
-        justify-content: center;
-    }
-    article img{
-        align-items: center;
-        width: 500px;
-    }
-    article li a{
-        align-items: center;
-    }
-    article ol{
-        justify-content: center;
-        justify-content: center;
-    } */
 
     footer{
         display: flex;
