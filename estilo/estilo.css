@@ -98,7 +98,7 @@ button, select {
 }
 button {
     appearance: auto;
-    writing-mode: horizontal-tb !important;
+    writing-mode: horizontal-tb;
     text-rendering: auto;
     color: -internal-light-dark(black, white);
     letter-spacing: normal;
@@ -143,8 +143,9 @@ button {
     grid-template-rows: 1fr; 
     gap: 10px; 
     justify-items: center;
-    padding-top: 80px;
+    padding-top: 200px;
 }
+
 footer{
     background-color: #192836;
     color: #fff;
@@ -187,7 +188,16 @@ footer li a{
     color: #fcaf17;
 }
 
+.nombresobremi, .historiasobremi, .experienciasobremi, .tituloexperienciasobremi, .freelancesobremi, .siete24sobremi, .educacionsobremi, .bachillersobremi, .egresadosobremi, .domestikasobremi, .habilidadessobremi{
+    padding-bottom: 10px;
+}
+.minombresobremi{
+    padding-bottom: 10px;
+}
 
+.proyectosCards{
+    padding-top: 70px;
+}
 .proyectosCards, .proyectosSection {
     justify-content: center;
 }
@@ -204,7 +214,7 @@ footer li a{
 }
 
 .m-2 {
-    margin: 0.5rem!important;
+    margin: 0.5rem;
 }
 
 .card {
@@ -288,6 +298,30 @@ footer li a{
     overflow: scroll;
 }
 
+.titulocontacto{
+    margin-bottom: 20px;
+}
+.formulariocontacto{
+    padding-top: 20px;
+    padding-bottom: 368px;
+}
+
+.programas{
+    display: flex;
+    justify-content: center;
+
+}
+.programas img{
+    padding-top: 200px;
+    padding-bottom: 313px;
+    width: 250px;
+    height: 250px;
+    transition: 0.5s;
+    filter: grayscale(100%);
+}
+.programas img:hover{
+    filter: none;
+
 @media screen and (max-width: 768px){
 
     .botonNav {
@@ -330,13 +364,13 @@ footer li a{
     }
 
     .navbar-expand-lg .navbar-collapse {
-        display: flex!important;
+        display: flex;
         flex-basis: auto;
     }
     
 
     .navbar-expand-lg .navbar-collapse {
-        display: flex!important;
+        display: flex;
         flex-basis: auto;
     }
     
@@ -438,13 +472,13 @@ footer li a{
     }
 
     .navbar-expand-lg .navbar-collapse {
-        display: flex!important;
+        display: flex;
         flex-basis: auto;
     }
     
 
     .navbar-expand-lg .navbar-collapse {
-        display: flex!important;
+        display: flex;
         flex-basis: auto;
     }
     
@@ -502,4 +536,5 @@ footer li a{
         justify-content: center;
         align-items: center;
     }
+}
 }
